@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins";
+}
+
+body {
+  height: 100vh;
+  display: grid;
+  place-items: center;
+  color: white;
+  background: #010708;
+}
+
+div {
+  background: #8bbcf0;
+  padding: 10px;
+  position: relative;
+  border-radius: 10px;
+}
+
+ul {
+  list-style: none;
+  width: auto;
+  height: 200px;
+  overflow-y: scroll;
+  margin-top: 5px;
+}
+
+li {
+  height: 50px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background: #fff;
+  padding: 0 10px;
+  border-radius: 5px;
+  color: #151f2e;
+  margin-bottom: 5px;
+}
+
+li > p {
+  margin-right: auto;
+}
+
+::-webkit-scrollbar {
+  position: absolute;
+  background: black;
+  width: 0px;
+}
+
+li > button {
+  display: grid;
+  place-items: center;
+  margin-left: 5px;
+  height: 40px;
+  width: 40px;
+}
+
+.check-btn {
+  font-size: 0;
+}
+
+.show {
+  font-size: 15px;
+}
+
+button {
+  padding: 5px 10px;
+  border: none;
+  color: white;
+  background: #4499e1;
+  border-radius: 5px;
+}
+
+#node {
+  margin: 10px 0;
+  color: white;
+}
+
+#input {
+  border: none;
+  width: 200px;
+  height: 30px;
+  outline: none;
+  padding: 0 5px;
+  background: #1065ac;
+}
+
+::-webkit-input-placeholder {
+  color: white;
+}
+
+.box1 {
+  margin-right: 5px;
+  width: 30px;
+  height: 30px;
+  font-size: 0;
+}
+
+.box {
+  font-size: 15px;
+}
